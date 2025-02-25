@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors</title>
+        <meta name="Description" content="Some Infomation about " />
+        <style>
+           /* #best,.boc{
+                background-color: chartreuse;
+                color: red;
+            }
+            section[class="boc"]
+            {
+                background-color: black;
+                color: white;
+                
+            }
+                
+              [class="better"] h1{
+                background-color: chocolate;
+            }
+            */
+            section.boc p , section.better h1, div#best strong, [class="amazing"] b{
+                background-color: yellow;
+                font-style: italic;
+                color: red;
+            }
+
+          
+        </style>
+
+    </head>
+    <body>
+        <div class="sample" id="best">
+            <h1>This is H1 Div</h1>
+            <p>Some Description</p>
+            <strong> Hey My Dear !</strong>
+        </div>
+
+        <section class="boc" >
+            <h1>This is H1 Section</h1>
+            <p>Some Description</p>
+        </section>
+
+        <article class="block">
+            <h1>This is H1 article</h1>
+            <p>Some Description</p>
+        </article>
+
+        <section class="better">
+            <h1>This is H1 Section</h1>
+            <p>Some Description</p>
+        </section>
+        <section class="">
+            <h1>this is another section H1</h1>
+            <p>hey you guys are amazing!</p>
+        </section>
+        <section class="amazing">
+            <h1>this is Just section H1</h1>
+            <p>hey you guys are amazing!</p>
+            <b>Good Morning</b>
+        </section>
+
+
+    </body>
+</html>
