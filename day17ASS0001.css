@@ -16,8 +16,8 @@ body{
     flex-wrap: wrap;
 }
 #box{
-    border: 2px solid red;
-    width: 47%;
+    
+    flex: 47%;
     padding: 10px;
     margin: 10px;
     
@@ -26,12 +26,12 @@ body{
     list-style-type:circle;
 }
 .starting{
-    
+    line-height: 20px;
     margin: 5px;
     padding: 5px;
 }
 .mainright{
-    border: 5px solid gray;
+    border: 5px solid lightgray;
 }
 .firsthalf,.firsthalf h2{
     text-align: center;
@@ -40,9 +40,12 @@ body{
     padding: 10px;
     
 }
+.firsthalf article{
+    padding: 20px;
+}
 .second{
-    background-color: gray;
-    padding: 10px;
+    background-color:lightgray;
+    padding: 30px;
     text-align: center;
     margin-top: 10px;
     
@@ -51,7 +54,18 @@ body{
     background-color: orange;
     color: white;
     border: none;
-    padding: 3px;
-    width: 130px;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 150px;
     
+}
+.sms{
+    border: 2px solid blue;
+    background-color: #fff;
+    color: blue;
+    padding: 4px;
+    margin-top: 10px;
+}
+.starting h2{
+    margin-bottom: 10px;
 }
