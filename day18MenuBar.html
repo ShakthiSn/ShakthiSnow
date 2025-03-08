@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Menebar Creations</title>
+        <style>
+            *{
+                margin: 0%;
+                box-sizing: border-box;
+            }
+            .menubar{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                box-shadow: 5px 3px 5px;
+              
+
+            }
+            .logo img{
+                height: 60px;
+                width: 150px;
+                border-radius: 5px;
+            }
+            .list{
+                display: flex;
+                justify-content: space-between;
+            }
+            .list li{
+                padding: 10px 24px;
+                list-style-type: none;
+                 
+            }
+            .list li a{
+                text-decoration:none;
+            }
+            .list li:hover{
+                background-color: green;
+                border-radius: 5px;
+                
+
+            }
+            .list li:hover a{
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header class="menubar">
+            <div class="logo">
+                <img src="images/infosys.png"/>
+            </div>
+            <div>
+                <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Career</a></li>
+                </ul>
+
+            </div>
+
+        </header>
+    </body>
+</html>
