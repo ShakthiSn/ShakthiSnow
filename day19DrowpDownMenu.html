@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dropdown Menu Creation</title>
+        <link href="" rel="stylesheet"/>
+        <style>
+            *{
+                margin: 0%;
+                box-sizing: border-box;
+            }
+            .items{
+                display: flex;
+                list-style-type: none;
+                
+                
+            }
+            .items li a{
+                text-decoration: none;
+            }
+            .header{
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                box-shadow: 0px 2px 30px gray;
+                
+        
+            }
+            .items li{
+                padding: 8px;
+
+                
+            }
+            .items li:hover a{
+                color:blueviolet
+                
+            }
+            .items li:hover{
+                background-color: aqua;
+                border-radius: 4px;
+                
+            }
+            .logo img{
+                height: 60px;
+                width: 120;
+            }
+            .servicedrop{
+                background-color: #d4d4d4;
+                list-style-type: none;
+                padding: 6px;
+                display: none;
+                position: absolute;
+                
+
+
+                            
+            }
+            li:hover .servicedrop{
+                display: block;
+            }
+            
+            
+           
+          
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <section class="logo">
+                <img src="images/ey.png"/>
+
+            </section>
+            <section>
+                <ul class="items">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li>
+                        <a href="">Services <span style="font-size: 12px">&#x25BC</span></a>
+                        <ul class="servicedrop">
+                            <li><a href="">Website Development</a></li>
+                            <li><a href="">IOS Development</a></li>
+                            <li><a href="">Desktop App Development</a></li>
+                            <li><a href="">Android App Development</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Career</a></li>
+                </ul>
+
+            </section>
+
+        </header>
+    </body>
+</html>
